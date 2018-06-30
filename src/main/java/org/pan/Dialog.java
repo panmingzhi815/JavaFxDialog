@@ -1,4 +1,4 @@
-package name.antonsmirnov.javafx.dialog;
+package org.pan;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -77,7 +77,7 @@ public class Dialog extends Stage {
         protected static final int MESSAGE_MAX_WIDTH = 800;
         protected static final int BUTTON_WIDTH = 60;
         protected static final double MARGIN = 10;
-        protected static final String ICON_PATH = "/name/antonsmirnov/javafx/dialog/";
+        protected static final String ICON_PATH = "/org/pan/";
         
         protected Dialog stage;
         private ResourceBundle resources;

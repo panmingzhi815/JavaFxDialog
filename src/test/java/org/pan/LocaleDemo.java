@@ -1,4 +1,4 @@
-package name.antonsmirnov.javafx.dialog;
+package org.pan;
 
 import javafx.application.Application;
 import javafx.event.Event;
@@ -14,8 +14,8 @@ public class LocaleDemo extends Application {
 
   @Override
   public void start(Stage stage) throws Exception {
-    Locale.setDefault(Locale.FRENCH);
-    Dialog.buildConfirmation("", "").addYesButton(new EventHandler() {
+    Locale.setDefault(Locale.SIMPLIFIED_CHINESE);
+    Dialog.buildConfirmation("提示", "请确认").addYesButton(new EventHandler() {
       @Override
       public void handle(Event event) {
         //nothing to do
